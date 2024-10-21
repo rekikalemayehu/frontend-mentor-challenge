@@ -1,0 +1,123 @@
+body {
+    background-color:rgb(248, 243, 243); /* Light pink color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.main-container {
+    background-color: white; /* White background for the content */
+    width: 100%; /* Adjust the width as necessary */
+    padding: 30px; /* Padding inside the white content box */
+    border-radius: 25px; /* Rounded corners for the content box */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for a lifted effect */
+    margin:10% 20%;
+}
+
+.image
+{
+    border-radius: 25px;
+    width:75%;
+    height: 25%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2
+{
+    font-size:20px;
+    color: rgb(189, 45, 45);
+    font-style: oblique;
+}
+h2.center-title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inside-container h1 
+{
+    color:black;
+    font-size: 50px;
+   
+}
+.inside-container p
+{
+    font-size:17px;
+    
+}
+.section
+{
+    background-color: rgb(247, 218, 218);
+    padding: 30px; 
+    border-radius: 40px;
+    margin:50px 100px;
+}
+.section-block
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-block ul li
+{
+    padding: 10px;
+    font-family:cursive;
+    font-size: 17px;
+}
+.ingerdients-section ul li
+{
+    padding:10px;
+}
+ol li::marker
+{
+    color:rgb(189, 45, 45);
+    font-weight: bolder;
+}
+.instructions ol li
+{
+    padding: 10px;
+}
+.nutrition table {
+    border-collapse: collapse; /* Ensures that borders behave as a single border */
+    width: 100%;
+}
+
+.nutrition table td {
+    padding: 10px;
+    border-bottom: 1px solid gray; 
+}
+.nutrition table td:last-child {
+    width: 80%;  
+    color:rgb(189,45,45);
+    font-weight: bolder;
+}
+.attribution { 
+    padding-top: 100px;
+    font-size: 15px; 
+    text-align: center; 
+}
+.attribution a {
+     color: hsl(228, 45%, 44%);
+     }
+     @media only screen and (max-width: 768px) {
+        .main-container {
+            width: 90%; /* On small screens, the container will take 90% of the screen */
+            padding: 20px; /* Reduce padding for smaller screens */
+        }
+    
+        .inside-container h1 {
+            font-size: 30px; /* Smaller font size for mobile */
+        }
+        
+        .section-block ul li {
+            font-size: 15px; /* Adjust text size for better readability */
+        }
+    
+        .image {
+            width: 100%; /* Ensure the image scales with the container */
+        }
+    }
+    
+  
