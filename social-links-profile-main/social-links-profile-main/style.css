@@ -1,0 +1,90 @@
+body
+{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.main-container
+{
+    background-color:rgb(34, 33, 33);
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px  whitesmoke;
+    width: 80%;
+    margin:10% 30%;
+
+    
+}
+img
+{
+   
+    border-radius:50%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2%;
+}
+.title
+{
+    font-weight: bold;
+    font-size:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:1%;
+    color: white;
+}
+.yellow-title
+{
+    color:rgb(255, 255, 4);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+}
+.sub-title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:3%;
+    color: white;
+}
+.inner-container
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:2% 10%;
+    
+}
+.box
+{
+    padding:20px;
+    background-color:rgb(63, 60, 60);
+    box-shadow: 0px 1px 4px  whitesmoke;
+    margin: 10px; /* Adds space between boxes */
+    text-align: center; /* Centers text inside the box */
+    width:40%;
+    border-radius:10px;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: gray 0.3s,0.3s;
+}
+.box:hover
+{
+    background-color: rgb(155, 155, 147);
+}
+.attribution { 
+    font-size: 15px; 
+    text-align: center;
+    
+
+ }
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+ }
